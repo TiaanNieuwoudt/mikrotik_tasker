@@ -39,7 +39,7 @@ def devices_by_submaps(submaps):
     for device in device_list:
         if device['name'] not in found_devices:
             filtered_devices.append(device)
-
+    #Filter out all Ubiquiti devices
     for device in filtered_devices:
         if 'UBNT' not in device['type']:
             final_devices.append(device)
