@@ -131,7 +131,7 @@ class Entity:
 
     def get_dude_device(self, name):
         dude_path = self.api.get_resource('/dude/device')
-        device = dude_path.set(name="Clavervlei Core", username="tiaan")
+        device = dude_path.set(name=name, username=username)
         print(device)
 
 
