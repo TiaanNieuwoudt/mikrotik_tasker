@@ -73,4 +73,4 @@ def mikrotik_filer(devices):
             if 'UBNT' not in device['type']:
                 final_devices.append(device)
 
-    return final_devices
+    return final_devices 
