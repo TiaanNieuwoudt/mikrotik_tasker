@@ -2,8 +2,8 @@ import routeros_api
 import datetime
 from tools import devices_by_submaps
 
-USERNAMES = ['werner', 'TwK_N3t', 'twkcomm', 'hermann', 'TwK_Cp3']
-PASSWORDS = ['Banksand6067', 'Ktm3OO-Tw0-Str0k3', 'Banksand5057', 'Malgas3035', 'Malgas4046' ,'Malgas5057', 'Ktm25O-Tw0-Str0k3']
+USERNAMES = [Enter list of usernames here]
+PASSWORDS = [Enter list of passwords here]
 
 
 class Entity:
@@ -135,7 +135,7 @@ class Entity:
         print(device)
 
 
-connect = Entity('172.18.103.10')
-connect.create_connection('tiaan', 'Ja5zeip8re')
-connect.get_dude_device('Clavervlei Core')
+connect = Entity(sample IP)
+connect.create_connection(username, password)
+connect.get_dude_device(device by name)
 
